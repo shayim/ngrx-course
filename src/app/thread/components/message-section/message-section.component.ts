@@ -1,4 +1,4 @@
-import { AppState } from '../../store/app-state'
+import { ThreadState } from '../../store/'
 import { Component, OnInit } from '@angular/core'
 import { Store } from '@ngrx/store'
 
@@ -8,7 +8,7 @@ import { Store } from '@ngrx/store'
   styleUrls: ['./message-section.component.css'],
 })
 export class MessageSectionComponent implements OnInit {
-  constructor(private store: Store<AppState>) {}
+  constructor() {}
 
   ngOnInit() {}
 }

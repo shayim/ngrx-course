@@ -1,6 +1,6 @@
-import { Participant } from './../models/participant'
-import { Thread } from '../models/thread'
-import { Message } from '../models/message'
+import { Participant } from '../../app/thread/models/participant'
+import { Thread } from '../../app/thread/models/thread'
+import { Message } from '../../app/thread/models/message'
 
 export interface AllUserData {
   participants: Participant[]

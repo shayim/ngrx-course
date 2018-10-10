@@ -1,5 +1,5 @@
 <ul class="thread-list">
-  <li class="thread-list-item" *ngFor="let thread of threads">
+  <li class="thread-list-item" *ngFor="let thread of threads" (click)="select(thread)" [class.selected]="currentThreadId === thread.id">
     <h5 class="thread-name">
       {{thread.participants}}
     </h5>
